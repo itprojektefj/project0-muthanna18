@@ -1,33 +1,36 @@
-
-body{
+body {
   background-color: yellow;
-  color: red;
   font-size: 50px;
   background-image: url("121.jpg");
-  background-size: 100% auto;
-  }
-  .weisertext{
-    color: blue;
-  }
-  .rotertext{
-    color: red;
-  }
-  .dreitext{
-    color: violet;
-  }
-  .viertext{
-    font-style: italic;
-    font-size: 75px;
-    color: white;
-  }
-  @media print {
-    .nichtDrucken {
-      display: none;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    body {
-      background-color: lightgreen;
-      font-size: 25px;
-    }
-  }
+  background-size: 100% auto; }
+
+ul li {
+  font-size: 25px;
+  color: red; }
+
+.weisertext, .rotertext, .dreitext {
+  font-size: 25px;
+  font-style: normal; }
+
+.weisertext {
+  color: blue; }
+
+.rotertext {
+  color: red; }
+
+.dreitext {
+  color: violet; }
+
+.viertext {
+  font-style: italic;
+  font-size: 50px;
+  color: white; }
+
+@media print {
+  .btn.btn-primary {
+    display: none; } }
+@media screen and (max-width: 500px) {
+  p {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+$mainsize : 25px;
+body{
+  background-color: yellow;
+  font-size: 50px;
+  background-image: url("121.jpg");
+  background-size: 100% auto;
+  }
+  ul{
+    li {
+    font-size: $mainsize;
+    color: red;
+    }
+  }
+%text{
+font-size: $mainsize;
+font-style: normal;
+}
+  .weisertext{
+    @extend %text;
+    color: blue;
+  }
+  .rotertext{
+    color: red;
+    @extend %text;
+  }
+  .dreitext{
+    color: violet;
+    @extend %text;
+  }
+  .viertext{
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+  }
+  @media print {
+    .btn.btn-primary {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    p {
+      font-size: 10px;
+    }
+  }
