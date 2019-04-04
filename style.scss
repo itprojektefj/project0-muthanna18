@@ -15,7 +15,7 @@ body{
 font-size: $mainsize;
 font-style: normal;
 }
-  .weisertext{
+  #weisertext{
     @extend %text;
     color: blue;
   }

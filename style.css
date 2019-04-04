@@ -8,11 +8,11 @@ ul li {
   font-size: 25px;
   color: red; }
 
-.weisertext, .rotertext, .dreitext {
+#weisertext, .rotertext, .dreitext {
   font-size: 25px;
   font-style: normal; }
 
-.weisertext {
+#weisertext {
   color: blue; }
 
 .rotertext {
